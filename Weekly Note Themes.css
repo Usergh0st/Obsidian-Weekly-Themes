@@ -1,0 +1,331 @@
+/*------------------------------------------------------------------------------*/
+/*                 Weekly Note Themes (Adapted from daily notes themes)		*/
+/*  A collection of themes for weekly notes, changing colors based on the week number. */
+/*  Each week has a distinct color scheme to visually differentiate it		*/
+/*  Created by ChatGPT and adapted by Usergh0st.				*/
+/*------------------------------------------------------------------------------*/
+
+:root {
+  --highlight: #ffffff;
+  --primary: #aaaaaa;
+  --dark: #333333;
+}
+
+.weekly {
+  --dark: var(--dark);
+  color: var(--highlight);
+  background-color: var(--dark);
+  --text-normal: var(--highlight);
+  --text-muted: var(--highlight);
+  --text-faint: var(--highlight);
+  --checklist-done-color: var(--highlight);
+  --metadata-label-text-color: var(--highlight);
+  --metadata-input-text-color: var(--highlight);
+  --tag-color: var(--dark);
+  --tag-background: var(--primary);
+  --hr-color: var(--primary);
+  --blockquote-border-color: var(--primary);
+  --interactive-accent: var(--primary);
+  --collapse-icon-color-collapsed: var(--primary);
+  --checkbox-color: var(--primary);
+  --checkbox-marker-color: var(--dark);
+  --checkbox-color-hover: var(--highlight);
+  --checkbox-border-color: var(--highlight);
+  --list-marker-color: var(--highlight);
+  --code-background: black;
+  --code-normal: var(--primary);
+
+  --background-modifier-border-focus: var(--primary);
+  --background-modifier-border: color-mix(in srgb, var(--highlight) 60%, transparent);
+  --background-modifier-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
+  --pill-cover-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
+}
+
+/* Weeks 1–13 → winter/cool colors (blues, violets, whites) */
+
+.week-1, .Week-1 {
+  --highlight: #F4FFE2;
+  --primary: #9FC7F2;
+  --dark: #1A1C1E;
+}
+
+.week-2, .Week-2 {
+  --highlight: #FFF3E6;
+  --primary: #F29E6D;
+  --dark: #2B1A0F;
+}
+
+.week-3, .Week-3 {
+  --highlight: #E6F7F4;
+  --primary: #5FC9BB;
+  --dark: #102522;
+}
+
+.week-4, .Week-4 {
+  --highlight: #FFF7D6;
+  --primary: #F29D38;
+  --dark: #2E230A;
+}
+
+.week-5, .Week-5 {
+  --highlight: #E0F7FA;
+  --primary: #26C6DA;
+  --dark: #082C32;
+}
+
+.week-6, .Week-6 {
+  --highlight: #F3E5F5;
+  --primary: #AB47BC;
+  --dark: #2A0F32;
+}
+
+.week-7, .Week-7 {
+  --highlight: #D0F4F7; 
+  --primary: #63C7D6;  
+  --dark: #0B2B3C;       
+}
+
+.week-8, .Week-8 {
+  --highlight: #E6F0FF; 
+  --primary: #5A9BD5;   
+  --dark: #1E2F40;     
+}
+
+.week-9, .Week-9 {
+  --highlight: #F2F2F2; 
+  --primary: #A3B5C3;   
+  --dark: #1F1F1F;      
+}
+
+.week-10, .Week-10 {
+  --highlight: #E1F5FE;   
+  --primary: #29B6F6;     
+  --dark: #0A2733;        
+}
+
+.week-11, .Week-11 {
+  --highlight: #ECEFF1;   
+  --primary: #607D8B;     
+  --dark: #263238;        
+}
+
+.week-12, .Week-12 {
+  --highlight: #DDEFFF;   
+  --primary: #4D9DE0;     
+  --dark: #1E2E3A;      
+}
+
+.week-13, .Week-13 {
+  --highlight: #F3F7FA;   
+  --primary: #90CAF9;     
+  --dark: #141736;        
+}
+
+/* Weeks 14–26 → spring/soft colors (pinks, light greens, pastels) */
+
+.week-14, .Week-14 {
+  --highlight: #EBFDF2;
+  --primary: #81C784;
+  --dark: #1B3B27;
+}
+
+.week-15, .Week-15 {
+  --highlight: #FFFFF0;
+  --primary: #D4E157;
+  --dark: #262e0c;
+}
+
+.week-16, .Week-16 {
+  --highlight: #E0F2F1;
+  --primary: #26A69A;
+  --dark: #0C2C29;
+}
+
+.week-17, .Week-17 {
+  --highlight: #F3E5F5;
+  --primary: #BA68C8;
+  --dark: #1c0b26;
+}
+
+.week-18, .Week-18 {
+  --highlight: #F1F8E9;
+  --primary: #8BC34A;
+  --dark: #232b0d;
+}
+
+.week-19, .Week-19 {
+  --highlight: #ECFDF5;
+  --primary: #00BFA5;
+  --dark: #001a16;
+}
+
+.week-20, .Week-20 {
+  --highlight: #FFFDE7;
+  --primary: #c7ac34;
+  --dark: #2b2712;
+}
+
+.week-21, .Week-21 {
+  --highlight: #E8F5FE;
+  --primary: #4FC3F7;
+  --dark: #13324C;
+}
+
+.week-22, .Week-22 {
+  --highlight: #FFF0F5;
+  --primary: #F48FB1;
+  --dark: #4A1F2F;
+}
+
+.week-23, .Week-23 {
+  --highlight: #E0F7FA;
+  --primary: #00BCD4;
+  --dark: #00363A;
+}
+
+.week-24, .Week-24 {
+  --highlight: #F1F8E9;
+  --primary: #AED581;
+  --dark: #2F3C1B;
+}
+
+.week-25, .Week-25 {
+  --highlight: #FFF9C4;
+  --primary: #FBC02D;
+  --dark: #3B2F00;
+}
+
+.week-26, .Week-26 {
+  --highlight: #FCE4EC;
+  --primary: #EC407A;
+  --dark: #3D1223;
+}
+
+/* Weeks 27–38 → summer/soft colors (bright, warm, intense colors)*/
+
+.week-27, .Week-27 {
+  --highlight: #FFFDE7;
+  --primary: #FF9800;
+  --dark: #291e15;
+}
+
+.week-28, .Week-28 {
+  --highlight: #FFF3E0;
+  --primary: #FF7043;
+  --dark: #1c1616;
+}
+
+.week-29, .Week-29 {
+  --highlight: #FFF8E1;
+  --primary: #FFC107;
+  --dark: #1a0a09;
+}
+
+.week-30, .Week-30 {
+  --highlight: #FBE9E7;
+  --primary: #FF8A65;
+  --dark: #3E1F18;
+}
+
+.week-31, .Week-31 {
+  --highlight: #FFF3E0;
+  --primary: #FFA726;
+  --dark: #4A2C18;
+}
+
+.week-32, .Week-32 {
+  --highlight: #FFFFFF;
+  --primary: #fc0065;
+  --dark: #000000;
+}
+
+.week-33, .Week-33 {
+  --highlight: #F1F8E9;
+  --primary: #66BB6A;
+  --dark: #1B3A24;
+}
+
+.week-34, .Week-34 {
+  --highlight: #fceec4;
+  --primary: #fcf36f;
+  --dark: #232217;
+}
+
+.week-35, .Week-35 {
+  --highlight: #F0FFF4;
+  --primary: #00E676;
+  --dark: #00391A;
+}
+
+.week-36, .Week-36 {
+  --highlight: #FFF0F5;
+  --primary: #F06292;
+  --dark: #3B1C2A;
+}
+
+.week-37, .Week-37 {
+  --highlight: #E0F7FA;
+  --primary: #26C6DA;
+  --dark: #002F33;
+}
+
+.week-38, .Week-38 {
+  --highlight: #E8EAF6;
+  --primary: #7986CB;
+  --dark: #1A1A40;
+}
+
+.weekly :is(h1, .HyperMD-header.HyperMD-header-1) {
+  color: var(--primary);
+  text-align: center;
+  font-size: 60px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  padding: 0 !important;
+}
+.weekly :is(h2, .HyperMD-header.HyperMD-header-2) {
+  color: var(--highlight);
+  text-align: center;
+  font-size: 30px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  font-style: italic;
+  padding: 0 !important;
+}
+.weekly :is(h3, .HyperMD-header.HyperMD-header-3) {
+  color: var(--primary);
+  text-align: center;
+  font-size: 32px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  padding-top: 0;
+}
+.weekly :is(h4, .HyperMD-header.HyperMD-header-4) {
+  background-color: var(--primary);
+  color: var(--dark);
+  font-weight: 900;
+  margin-bottom: 0;
+  padding-top: 0;
+  font-size: 20px;
+  width: fit-content;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 8px;
+  word-wrap: normal;
+}
+.weekly p {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.weekly :is(a:link, .cm-hmd-internal-link) {
+  color: var(--primary);
+}
+.weekly :is(a:hover, .cm-hmd-internal-link:hover) {
+  color: var(--highlight);
+}
+.weekly hr {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+.weekly img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
