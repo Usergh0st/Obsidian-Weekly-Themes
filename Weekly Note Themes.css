@@ -1,9 +1,4 @@
-/*------------------------------------------------------------------------------*/
-/*                 Weekly Note Themes (Adapted from daily notes themes)		*/
-/*  A collection of themes for weekly notes, changing colors based on the week number. */
-/*  Each week has a distinct color scheme to visually differentiate it		*/
-/*  Created by ChatGPT and adapted by Usergh0st.				*/
-/*------------------------------------------------------------------------------*/
+/* Obsidian Weekly Notes Theme (Adapted from daily notes theme by @CyanVoxel) */
 
 :root {
   --highlight: #ffffff;
