@@ -16,4 +16,4 @@ To use this theme, you need to have the latest version of [Obsidian](https://obs
 
 Here is a short video of what the result would be if you applied the theme and template.
 
-[![example](https:github.com/Usergh0st/Obsidian-Weekly-Themes/blob/main/Example_video.mp4 "example")
+[![example](https:github.com/Usergh0st/Obsidian-Weekly-Themes/blob/main/Example_video.mp4)
